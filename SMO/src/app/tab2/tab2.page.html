@@ -9,11 +9,11 @@
   
   <br>
     <ion-row>
-    <ion-col size="4">
-      <ion-buttons routerLink="/sesiones" expand="full" shape="round">
-        <img class="logoHome" src="../../assets/icon/sesion.png">
-      </ion-buttons>
-    </ion-col> 
+      <ion-col size="4">
+        <ion-buttons routerLink="/socio" color="secondary" expand="full" shape="round">
+          <img class="logoHome" src="../../assets/icon/socios.png">
+        </ion-buttons>
+      </ion-col>
     <ion-col size="4">
       <ion-buttons expand="full" shape="round">
         <img class="logoHome" src="../../assets/icon/coloq.png">
@@ -33,10 +33,10 @@
         </ion-buttons>
       </ion-col> 
       <ion-col size="4">
-        <ion-buttons (click)="fbSMO()" color="secondary" expand="full" shape="round">
-          <img class="logoHome" src="../../assets/icon/redes.png">
-        </ion-buttons>
-      </ion-col>
+          <ion-buttons routerLink="/sesiones" expand="full" shape="round">
+            <img class="logoHome" src="../../assets/icon/sesion.png">
+          </ion-buttons>
+      </ion-col> 
       <ion-col size="4">
         <ion-buttons (click)="revistaSMO()" color="secondary" expand="full" shape="round">
           <img class="logoHome" src="../../assets/icon/REVISTA.png">
@@ -59,6 +59,24 @@
           <ion-buttons routerLink="/contacto" expand="full" shape="round">
             <img class="logoHome" src="../../assets/icon/contact.png">
           </ion-buttons>
+        </ion-col>
+      </ion-row>
+      <br>
+      <ion-row>
+        <ion-col size="4">
+          <ion-buttons (click)="fbSMO()" color="secondary" expand="full" shape="round">
+            <img class="logoHome" src="../../assets/icon/redes.png">
+          </ion-buttons>
+        </ion-col> 
+        <ion-col size="4">
+          <!--->ion-buttons (click)="()" expand="full" shape="round">
+            <img class="logoHome" src="../../assets/icon/.png">
+          </ion-buttons-->
+        </ion-col>
+        <ion-col size="4">
+          <!-->ion-buttons routerLink="/" expand="full" shape="round">
+            <img class="logoHome" src="../../assets/icon/.png">
+          </ion-buttons-->
         </ion-col>
       </ion-row>
 <br>
