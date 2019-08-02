@@ -464,6 +464,18 @@ var map = {
 		"./src/app/pages/usuario/usuario.module.ts",
 		"pages-usuario-usuario-module"
 	],
+	"./tab1/tab1.module": [
+		"./src/app/tab1/tab1.module.ts",
+		"tab1-tab1-module"
+	],
+	"./tab2/tab2.module": [
+		"./src/app/tab2/tab2.module.ts",
+		"tab2-tab2-module"
+	],
+	"./tab3/tab3.module": [
+		"./src/app/tab3/tab3.module.ts",
+		"tab3-tab3-module"
+	],
 	"./tabs/tabs.module": [
 		"./src/app/tabs/tabs.module.ts",
 		"tabs-tabs-module"
@@ -509,9 +521,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [
     { path: '', loadChildren: './tabs/tabs.module#TabsPageModule' },
-    /*{ path: 'notif', loadChildren: '../tab1/tab1.module#Tab1PageModule' },
-    { path: 'home', loadChildren: '../tab2/tab2.module#Tab2PageModule' },
-    { path: 'socio', loadChildren: '../tab3/tab3.module#Tab3PageModule' },*/
+    { path: 'notif', loadChildren: './tab1/tab1.module#Tab1PageModule' },
+    { path: 'home', loadChildren: './tab2/tab2.module#Tab2PageModule' },
+    { path: 'socio', loadChildren: './tab3/tab3.module#Tab3PageModule' },
     { path: 'contacto', loadChildren: './pages/contacto/contacto.module#ContactoPageModule' },
     { path: 'directiva', loadChildren: './pages/directiva/directiva.module#DirectivaPageModule' },
     { path: 'sesiones', loadChildren: './pages/sesiones/sesiones.module#SesionesPageModule' },
@@ -712,7 +724,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/brbcompany/SMOapp/SMOapp/SMO/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/brb/Documents/GitHub/SMOapp/SMO/src/main.ts */"./src/main.ts");
 
 
 /***/ })

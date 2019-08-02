@@ -69,7 +69,7 @@ module.exports = "<ion-header>\n    <ion-toolbar color=\"primary\">\n      <ion-
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "ion-content.background {\n  --background: url('background.jpg') 0 0/100% 100% no-repeat; }\n\n.iconBig {\n  size: 30px;\n  padding: 40px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9icmJjb21wYW55L1NNT2FwcC9TTU9hcHAvU01PL3NyYy9hcHAvcGFnZXMvY29udGFjdG8vY29udGFjdG8ucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksMkRBQWEsRUFBQTs7QUFHakI7RUFDSSxVQUFVO0VBQ1YsYUFBYSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvY29udGFjdG8vY29udGFjdG8ucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWNvbnRlbnQuYmFja2dyb3VuZHtcbiAgICAtLWJhY2tncm91bmQ6IHVybCguLi8uLi8uLi9hc3NldHMvYmFja2dyb3VuZC5qcGcpIDAgMC8xMDAlIDEwMCUgbm8tcmVwZWF0O1xufVxuXG4uaWNvbkJpZ3tcbiAgICBzaXplOiAzMHB4O1xuICAgIHBhZGRpbmc6IDQwcHg7XG59Il19 */"
+module.exports = "ion-content.background {\n  --background: url('background.jpg') 0 0/100% 100% no-repeat; }\n\n.iconBig {\n  size: 30px;\n  padding: 40px; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9icmIvRG9jdW1lbnRzL0dpdEh1Yi9TTU9hcHAvU01PL3NyYy9hcHAvcGFnZXMvY29udGFjdG8vY29udGFjdG8ucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksMkRBQWEsRUFBQTs7QUFHakI7RUFDSSxVQUFVO0VBQ1YsYUFBYSxFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvY29udGFjdG8vY29udGFjdG8ucGFnZS5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaW9uLWNvbnRlbnQuYmFja2dyb3VuZHtcbiAgICAtLWJhY2tncm91bmQ6IHVybCguLi8uLi8uLi9hc3NldHMvYmFja2dyb3VuZC5qcGcpIDAgMC8xMDAlIDEwMCUgbm8tcmVwZWF0O1xufVxuXG4uaWNvbkJpZ3tcbiAgICBzaXplOiAzMHB4O1xuICAgIHBhZGRpbmc6IDQwcHg7XG59Il19 */"
 
 /***/ }),
 
