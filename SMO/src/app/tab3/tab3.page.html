@@ -1,54 +1,41 @@
-<ion-header>
-  <ion-toolbar color="primary">
-    <ion-buttons slot="start">
-        <ion-icon id="iconBig" name="arrow-back" routerLink="/home"></ion-icon>
-    </ion-buttons>
-    <ion-title>Socio SMO</ion-title>
-    
-  </ion-toolbar>
-</ion-header>
-<ion-content class="background">
-  <ion-card color="shadow">
-    <img class="logoSmall" src="../../assets/logo_smo_blanco.png"> 
-    <br>
-    <h1 class="white">Socio SMO</h1>
-    <h4 class="white">Introduzca los siguientes datos para iniciar sesion:</h4>
-    <br>
-    <ion-row>
-      <ion-col size="1">
-      </ion-col>
-      <ion-col size="10" color="transp">
-        <ion-item color="warning">
-          <ion-label>Correo Electrónico:</ion-label>
-          <ion-input type="email" placeholder="correo@email.com"></ion-input>
-          <hr>
-      </ion-item>
-      <ion-item color="warning">
-        <ion-label >Contraseña:</ion-label>
-         <ion-input type="password" placeholder="******"></ion-input>
-         <hr>
-    </ion-item>
-      </ion-col>
-      <ion-col size="1">        
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col size="1">
-      </ion-col>
-      <ion-col size="5">
-        <ion-buttons><p class="blueOne">¿Olvidaste tu contraseña? <br>
-          Recuperala aquí</p></ion-buttons>
-         
-        </ion-col>
-        <ion-col size="5">
-        <p class="blueOne">¿Ya no cuentas con el mismo correo? <br>
-            Solicita su actualización aquí</p>
-      </ion-col>
-      <ion-col size="1">
-      </ion-col>
-    </ion-row>
-   
-</ion-card>
-
+<ion-content no-padding class="background">
+  <div class="main">
+    <ion-card no-margin class="card" color="shadow">
+      <ion-card-content >
+          <ion-row class="row">
+              <div class="fire-logo">
+                  <img src="../../assets/logo_smo_blanco.png" class="logoSmall">
+                  <br>
+                  <ion-text><h1 no-margin margin-vertical text-center>Socio SMO</h1></ion-text>
+                </div>
+          </ion-row>
+          <ion-row>
+              <ion-col>
+                <ion-input clearInput type="email" placeholder="usuario@correo.com" [(ngModel)]="email" class="input" padding-horizontal clear-input="true"></ion-input>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-input clearInput type="password" placeholder="Contraseña" [(ngModel)]="password" class="input" padding-horizontal clear-input="true"></ion-input>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-text float-end color="medium" ><h6 no-margin text-end class="small">Recupera tu contraseña</h6></ion-text>
+              </ion-col>
+              <ion-col>
+                <ion-text float-end color="medium" ><h6 no-margin text-end class="small">Actualización de correo</h6></ion-text>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-button expand="block" color="undefined" class="btn-transition"><strong class="white">Sign In</strong></ion-button>
+              </ion-col>
+            </ion-row>
+            <div class="line"></div>
+            <ion-row>
+            </ion-row>
+      </ion-card-content>
+    </ion-card>
+  </div>
 </ion-content>

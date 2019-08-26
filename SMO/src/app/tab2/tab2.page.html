@@ -20,7 +20,7 @@
       </ion-buttons>
     </ion-col>
     <ion-col size="4">
-      <ion-buttons expand="full" shape="round">
+      <ion-buttons (click)="transmision()" expand="full" shape="round">
         <img class="logoHome" src="../../assets/icon/transm.png">
       </ion-buttons>
     </ion-col>
@@ -69,9 +69,9 @@
           </ion-buttons>
         </ion-col> 
         <ion-col size="4">
-          <!--->ion-buttons (click)="()" expand="full" shape="round">
-            <img class="logoHome" src="../../assets/icon/.png">
-          </ion-buttons-->
+          <ion-buttons routerLink="/casos" expand="full" shape="round">
+            <img class="logoHome" src="../../assets/icon/casos.png">
+          </ion-buttons>
         </ion-col>
         <ion-col size="4">
           <!-->ion-buttons routerLink="/" expand="full" shape="round">

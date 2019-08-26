@@ -23,4 +23,8 @@ articulosSMO() {
   const browser = this.iab.create('https://www.smo.org.mx/solicitud_articulos.php', '_system');
 }
 
+transmision() {
+  const browser = this.iab.create('https://www.smo.org.mx/index.php', '_system');
+}
+
 }

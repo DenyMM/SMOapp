@@ -23,36 +23,39 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card color="primary">
-      <ion-card-header>
-          <ion-card-title>Formulario de Contácto</ion-card-title>
-        </ion-card-header>
-    <ion-item color="primary">
-        <ion-label>Nombre:</ion-label>
-         <ion-input placeholder="Nombre"></ion-input>
-         <hr>
-    </ion-item>
-    <ion-item color="primary">
-        <ion-label>Apellido:</ion-label>
-        <ion-input placeholder="Apellido"></ion-input>
-        <hr>
-    </ion-item>
-    <ion-item color="primary">
-        <ion-label>Teléfono:</ion-label>
-        <ion-input type="number" placeholder="5555555555"></ion-input>
-        <hr>
-    </ion-item>
-    <ion-item color="primary">
-        <ion-label>Correo Electrónico:</ion-label>
-        <ion-input placeholder="correo@email.com"></ion-input>
-        <hr>
-    </ion-item>
-    <ion-item color="primary">
-        <ion-label >Comentarios:</ion-label>
-        <ion-textarea></ion-textarea>
-      </ion-item>
-
+ 
+          <h2>Formulario de Contácto</h2>
+          <div>
+            <ion-row>
+              <ion-col>
+                <ion-input clearInput type="text" placeholder="Nombre:" [(ngModel)]="Nombre" class="input" padding-horizontal clear-input="true"></ion-input>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-input clearInput type="text" placeholder="Apellido:" [(ngModel)]="Apellido" class="input" padding-horizontal clear-input="true"></ion-input>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-input clearInput type="number" placeholder="Teléfono" [(ngModel)]="Telefono" class="input" padding-horizontal clear-input="true"></ion-input>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <ion-input clearInput type="email" placeholder="Correo Electrónico:" [(ngModel)]="email" class="input" padding-horizontal clear-input="true"></ion-input>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                
+                <ion-textarea clearInput type="text" placeholder="Comentarios:" [(ngModel)]="comentario" class="input" padding-horizontal clear-input="true"></ion-textarea>
+              </ion-col>
+            </ion-row>
+   
+      <ion-button>Enviar</ion-button>
+      <img src="../../assets/logo_smo_blanco.png" class="logoSmall">
+    </div>
     <br>
         <br>
-  </ion-card>
 </ion-content>

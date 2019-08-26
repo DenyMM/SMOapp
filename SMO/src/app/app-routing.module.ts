@@ -10,7 +10,9 @@ const routes: Routes = [
   { path: 'directiva', loadChildren: './pages/directiva/directiva.module#DirectivaPageModule' },
   { path: 'sesiones', loadChildren: './pages/sesiones/sesiones.module#SesionesPageModule' },
   { path: 'usuario', loadChildren: './pages/usuario/usuario.module#UsuarioPageModule' },
-  { path: 'congresos', loadChildren: './pages/congresos/congresos.module#CongresosPageModule' }
+  { path: 'congresos', loadChildren: './pages/congresos/congresos.module#CongresosPageModule' },
+  { path: 'coloquios', loadChildren: './pages/coloquios/coloquios.module#ColoquiosPageModule' },
+  { path: 'casos', loadChildren: './pages/casos/casos.module#CasosPageModule' }
 ];
 @NgModule({
   imports: [
