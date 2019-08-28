@@ -10,9 +10,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
 
+import { ImageViewerComponent } from './image-viewer/image-viewer.component';
+
 @NgModule({
-  declarations: [AppComponent],
-  entryComponents: [],
+  declarations: [AppComponent, ImageViewerComponent],
+  entryComponents: [ImageViewerComponent],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [
     StatusBar,
